@@ -1,6 +1,6 @@
 import { test, Page, BrowserContext, expect } from '@playwright/test';
 import LoginPO from '../pages/LoginPO';
-import User from 'src/modal/Users';
+import User from 'src/modal/User';
 import WelcomePO from '../pages/WelcomePO';
 
 let context: BrowserContext
