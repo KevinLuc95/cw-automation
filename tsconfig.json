@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "target": "es2017",
+        "sourceMap": true,
+        "incremental": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "resolveJsonModule": true,
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+    }
+}
